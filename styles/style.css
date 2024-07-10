@@ -47,7 +47,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 130px;
+    margin-top: 100px;
 }
 .banner-content{
     background-image: url("/assets/Hero-bg.png");
@@ -76,7 +76,7 @@ body{
     margin-left: 294PX;
     margin-right: 294PX; 
  } 
-.center-button{
+.contact-btn{
     font-size: 20px;
     font-weight: 600px;
     color: white;
@@ -93,11 +93,10 @@ main{
 }
 /* why web development */
 .why-web-development-section-container{
-    height: 1395px;
     border-radius: 16px;
-    padding: 80px 144px;
+    padding: 50px 144px;
     text-align: center;
-    margin-top: 101px;
+    margin-top: 100px;
 }
 .why-web-development-section-container p{
     margin-top: 24px;
@@ -134,9 +133,44 @@ main{
 }
 .layer-btn{
     width: 150px;
-    height: 48px;
+    height: 40px;
+    margin-top: 30px;
+}
+.layer-btn a{
+    text-decoration: none;
     font-size: 20px;
     font-weight: 600;
     color: rgb(13, 19, 33);
+    cursor: pointer; 
+}
+/* inspire section styles here */
+.Inspired-container{
+    margin-top: 50px;
+    text-align: center;
+    padding: 30px 144px;
+}
+.Inspired-container p{
     margin-top: 30px;
+}
+.inspire-video{
+    margin-top: 80px;
+}
+/* My current target stats here */
+.Skill-section{
+    border: 2px solid red;
+    /* text-align: center; */
+    margin-top: 100px;
+    /* padding: 30px 144px; */
+}
+.Skill-section p{
+    margin-top: 24px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    /* justify-content: space-between; */
+    text-align: left;
+}
+.skill{
+    padding: 40px;
 }
