@@ -17,11 +17,14 @@ body{
     font-size: 32px;
     font-weight: 800;
     color: rgb(13, 19, 33);
+    text-align: center;
 }
 .section-description{
     font-size: 16px;
     font-weight: 400;
     color: rgb(13, 19, 33);
+    padding: 0 144px;
+    margin-top: 30px;
 }
 .layer-style{
     display: flex;
@@ -41,6 +44,17 @@ body{
     font-size: 16px;
     font-weight: 400;
     color: rgb(13, 19, 33);
+}
+
+.skill-title{
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+.skill-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
 }
 /* banner section style starts here */
 .banner-section-container{
@@ -91,15 +105,13 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+footer{
+    margin-top: 100px;
+}
 /* why web development */
 .why-web-development-section-container{
     border-radius: 16px;
-    padding: 50px 144px;
-    text-align: center;
     margin-top: 100px;
-}
-.why-web-development-section-container p{
-    margin-top: 24px;
 }
 .importance-layer-01{
     border-radius: 16px;
@@ -147,30 +159,84 @@ main{
 .Inspired-container{
     margin-top: 50px;
     text-align: center;
-    padding: 30px 144px;
-}
-.Inspired-container p{
-    margin-top: 30px;
 }
 .inspire-video{
     margin-top: 80px;
 }
 /* My current target stats here */
 .Skill-section{
-    border: 2px solid red;
-    /* text-align: center; */
     margin-top: 100px;
-    /* padding: 30px 144px; */
-}
-.Skill-section p{
-    margin-top: 24px;
 }
 .skills-container{
     display: flex;
     gap: 24px;
-    /* justify-content: space-between; */
     text-align: left;
+    margin-top: 50px;
 }
 .skill{
-    padding: 40px;
+    padding: 40px 40px;
+    margin-left: 40px;
+}
+.skill-bg-01{
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+    width: 1500px;
+    height: 300px;
+}
+.skill-bg-02{
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px; 
+    width: 1500px;
+    height: 300px;
+}
+.skill-bg-03{
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+    width: 1500px;
+    height: 300px;
+}
+.support-container{
+    background-image: url("../assets/handshake.jpg");
+    max-width: 1140px;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.support-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.support-content{
+    text-align: center;
+}
+.Footer-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.footer-description{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+input{
+    width: 500px;
+    height: 50px;
+    border: none;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+.submit-btn{
+    margin-top: 20px;
+    width: 120px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
 }
