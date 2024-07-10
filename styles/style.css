@@ -8,8 +8,42 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+    
+    /* shared styles */
+.secondary-bg{
+    background-color: rgba(13, 19, 33, 0.02);
+ }
+.section-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+.section-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+}
+.layer-style{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+.layer-content{
+    padding: 50px 50px;
+    text-align: left;
+}
+.layer-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+}
+.layer-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+}
 /* banner section style starts here */
-.banner-container{
+.banner-section-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +56,6 @@ body{
     background-size: cover;
     max-width: 1440px;
     height: 650px;
-    border: 1px dashed #0000003d;
 }
 .banner-image{
     display: block;
@@ -52,4 +85,58 @@ body{
     padding: 20px;
     border-radius: 5px;
     cursor: pointer;
+}
+/* Main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* why web development */
+.why-web-development-section-container{
+    height: 1395px;
+    border-radius: 16px;
+    padding: 80px 144px;
+    text-align: center;
+    margin-top: 101px;
+}
+.why-web-development-section-container p{
+    margin-top: 24px;
+}
+.importance-layer-01{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.importance-layer-02{
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.importance-layer-03{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.layer-Image-01{
+    width: 259.56px;
+    height: 217.01px;
+    padding: 48px;
+    margin-right: 100px;
+}
+.layer-Image-02{
+    width: 223.2px;
+    height: 208.85px;
+    padding: 48px;
+    margin-right: 48px;
+}
+.layer-Image-03{
+    width: 206.4px;
+    height: 187.32px;
+    padding: 48px;
+    margin-right: 100px;
+}
+.layer-btn{
+    width: 150px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    margin-top: 30px;
 }
