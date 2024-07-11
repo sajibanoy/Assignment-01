@@ -56,6 +56,14 @@ body{
     font-weight: 400;
     margin-top: 8px;
 }
+/* Main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+footer{
+    margin-top: 100px;
+}
 /* banner section style starts here */
 .banner-section-container{
     display: flex;
@@ -90,7 +98,7 @@ body{
     margin-left: 294PX;
     margin-right: 294PX; 
  } 
-.contact-btn{
+.banner-contact-btn{
     font-size: 20px;
     font-weight: 600px;
     color: white;
@@ -99,14 +107,6 @@ body{
     padding: 20px;
     border-radius: 5px;
     cursor: pointer;
-}
-/* Main styles */
-main{
-    max-width: 1140px;
-    margin: 0 auto;
-}
-footer{
-    margin-top: 100px;
 }
 /* why web development */
 .why-web-development-section-container{
@@ -172,10 +172,7 @@ footer{
     gap: 24px;
     text-align: left;
     margin-top: 50px;
-}
-.skill{
-    padding: 40px 40px;
-    margin-left: 40px;
+    padding: 40px;
 }
 .skill-bg-01{
     background-color: rgba(255, 76, 30, 0.05);
@@ -195,48 +192,65 @@ footer{
     width: 1500px;
     height: 300px;
 }
-.support-container{
-    background-image: url("../assets/handshake.jpg");
-    max-width: 1140px;
-    height: 650px;
-    background-color: rgb(255, 255, 255);
+/* support section starts here*/
+.support-section-container{
+    background-image: url('../assets/handshake.jpg');
+    height: 314px;
+    /* border: 2px solid red; */
+    margin-top: 40px;
     border-radius: 16px;
-    margin: 0 auto;
-    margin-bottom: 50px;
-}
-.support-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
 }
 .support-content{
     text-align: center;
+    margin-top: 60px;
 }
-.Footer-title{
+.content-title{
+    padding-top: 65px;
     font-size: 32px;
-    font-weight: 700;
-    color: rgb(255, 255, 255);
+    font-weight: 700px;
+    color: white;
 }
-.footer-description{
-    margin-top: 10px;
+.content-description{
     font-size: 16px;
     font-weight: 400;
     color: rgb(255, 255, 255);
+    margin-top: 16px;
 }
-input{
-    width: 500px;
+.text-area{
+    margin-top: 24px;
+    width: 550px;
     height: 50px;
-    border: none;
-    box-sizing: border-box;
-    border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
-    background: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border: none;
 }
 .submit-btn{
-    margin-top: 20px;
     width: 120px;
-    height: 50px;
+    height: 51px;
     border: none;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
     cursor: pointer;
+}
+/* footer container starts here */
+.footer-container{
+    max-width: 1440px;
+    height: 100px;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.03);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-content{
+   margin-top: 32px;
+}
+.footer-text{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+}
+.footer-icons{
+    margin-top: 32px;
 }
